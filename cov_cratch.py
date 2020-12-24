@@ -12,7 +12,7 @@ def get_conn():
     conn = pymysql.connect(
         host='localhost',
         user='root',
-        password='DawnDeng1993',
+        password='123456',
         database='cov',
         port=3306
     )
@@ -179,7 +179,6 @@ def create_table():
     )
     '''
     )
-
 
     cursor.execute(
         '''
